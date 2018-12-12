@@ -1,0 +1,145 @@
+#box{
+  width:250px;
+  height:250px;
+  background-color: #f1f1f1;
+  margin:0px auto;
+  transform: rotate(0deg) scale(1) translate(0,0);
+  border-radius: 1000px;
+  border:1px solid blue;
+  transition: all 10s ease-in;
+}
+#box:hover{
+  background-color:#f1f1f1;
+  transform:rotate(360deg) scale(.9) translate(0,20px);
+}
+#box2{
+  width:30px;
+  height:30px;
+  background-color:blue;
+  margin:0px auto;
+  margin-top: 20px;
+  border:1px solid blue;
+  border-radius: 1000px;
+  background-color: inherit;
+}
+#box3{
+  width: 200px;
+  height:200px;
+  border-radius: 1000px;
+  background-color: green;
+  transform: translate(100px, 100px);
+}
+
+#box:hover{
+  background-color: blue;
+}
+
+#blueobject{
+  width: 350px;
+  height:500px;
+  background-color: #236bbf;
+
+}
+#bell{
+  width: 100px;
+  height:100px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  background-color: #f4d15e;
+  transform: translate(-130px, -350px);
+}
+
+#blackthing{
+  width: 120px;
+  height:150px;
+  background-color: #282820;
+  border-radius: 20px;
+  margin-top: -100px;
+  transform: translate(5px, -250px);
+}
+#handcream{
+  width: 70px;
+  height: 200px;
+  background-color: #5e5f4d;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  margin-left: -100px;
+  transform: translate(40px, -200px);
+}
+#penbody{
+  width: 15px;
+  height: 100px;
+  background-color: #aaa08b;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transform: rotate(90deg) translate(-405px, -50px);
+}
+#penlid{
+  width:15px;
+  height:30px;
+  background-color: black;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  transform:rotate(360deg);
+}
+
+#book{
+  width: 300px;
+  height: 400px;
+  background-color: #b5864b;
+  margin-top:-750px;
+  margin-left:250px;
+}
+#ruler{
+  width: 70px;
+  height: 250px;
+  background-color:#e6b437;
+  margin-top: -250px;
+  margin-left: 600px;
+  transform:rotate(335deg);
+}
+#trapezoid1{
+	border-top: 300px solid #2963ac;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	height: 0;
+	width: 300px;
+  margin-top: 70px;
+  margin-left: 500px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+#trapezoid2{
+  border-bottom: 300px solid #2963ac;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  height: 0;
+  width: 300px;
+  margin-left: -100px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;}
+
+#card{
+  height:100px;
+  width: 90px;
+  background-color: #d4bc87;
+  transform: translate(10px, -250px);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+#carddesign{
+  height:100px;
+  width:70px;
+  background-color: #89938a;
+  margin-left: 10px;}
+
+#book:hover{
+    background-color:#f1f1f1;
+    transform:rotate(360deg) scale(.9) translate(0,20px);
+    transition: all 10s ease-in;}
+
+  #card{}
